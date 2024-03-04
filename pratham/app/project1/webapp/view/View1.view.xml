@@ -1,0 +1,11 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Project">
+        <content>
+        <Label text="Name" labelFor="input"></Label>
+        <Input type="Text" id="input"/>
+        <Button text="submit" press="handleSubmit"></Button>
+        </content>
+    </Page>
+</mvc:View>

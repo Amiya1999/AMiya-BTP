@@ -1,0 +1,1 @@
+using amiya.bill as service from '../../srv/srv';
